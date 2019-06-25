@@ -1,19 +1,29 @@
 {
-    "name": "cdk-comp/carbon-field-toggler",
-    "description": "Carbon Fields extension, that adds a Toggler field type.",
-    "keywords": ["rd", "carbon-fields"],
-    "type": "library",
+    "name": "interconnectit/carbon-field-toggler",
+    "type": "wordpress-muplugin",
     "license": "MIT",
-    "authors": [],
-    "require": {
-        "htmlburger/carbon-fields": "^2.2.0"
-    },
+    "description": "Carbon Fields extension that adds a toggler field type.",
+    "keywords": [
+        "wordpress",
+        "carbon-field",
+        "carbon-field-toggler"
+    ],
+    "homepage": "https://interconnectit.com/",
+    "authors": [
+        {
+            "name": "interconnect/it",
+            "email": "support@interconnectit.com",
+            "homepage": "https://interconnectit.com/"
+        }
+    ],
     "autoload": {
-        "files": [
-            "field.php"
-        ],
         "psr-4": {
             "Carbon_Field_Toggler\\": "core/"
         }
+    },
+    "require": {
+        "php": ">=7.1",
+        "composer/installers": "^1.4",
+        "htmlburger/carbon-fields": "^2.2"
     }
 }
