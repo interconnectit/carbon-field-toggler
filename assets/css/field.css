@@ -14,7 +14,7 @@
 }
 
 .carbon-toggler h3 {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1;
   margin: 0;
   padding: 0;
@@ -26,23 +26,23 @@
 }
 
 .carbon-toggler.collapsed-enabled[data-collapsed=close]:before {
-  top: calc(50% - 15px);
-  transform: rotate(135deg);
-  -webkit-transform: rotate(135deg);
+  top: calc(50% - 5px);
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
 }
 
 .carbon-toggler.collapsed-enabled:before {
   content: '';
   display: block;
-  height: 20px;
-  border-right: 2px solid #24282d;
-  border-top: 2px solid #24282d;
+  height: 15px;
+  border-right: 1px solid #24282d;
+  border-top: 1px solid #24282d;
   position: absolute;
   right: 17px;
-  top: calc(50% - 5px);
-  transform: rotate(-45deg);
-  width: 20px;
-  -webkit-transform: rotate(-45deg);
+  top: calc(50% - 15px);
+  transform: rotate(135deg);
+  width: 15px;
+  -webkit-transform: rotate(135deg);
 }
 
 .carbon-container > .carbon-toggler ~ :not(.carbon-toggler),
